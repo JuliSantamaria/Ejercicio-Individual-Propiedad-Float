@@ -1,0 +1,24 @@
+.columna {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid gray;
+    
+}
+
+.columna img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin: auto;
+    
+}
+
+
+body:after {
+    content: "";
+    display: block;
+    clear: both;
+}
